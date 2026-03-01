@@ -12,11 +12,6 @@ Babel plugin for power-assert.
 DESCRIPTION
 ---------------------------------------
 
-`babel-plugin-espower` is a [Babel](https://babeljs.io/) plugin for [power-assert](https://github.com/power-assert-js/power-assert).
-
-`power-assert` provides descriptive assertion messages for your tests, like this.
-
-```
   1) ES6 demo Destructuring and TemplateLiteral:
 
       AssertionError:   # test/demo_test.js:7
@@ -125,7 +120,7 @@ $ $(npm bin)/mocha --require ./babel_hook /path/to/test/demo_test.js
 ```
 
 
-### with [babelify](https://github.com/babel/babelify)
+### with [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 ```javascript
 var fs = require('fs');
@@ -147,7 +142,7 @@ $ $(npm bin)/browserify -d -e ./test/*_test.js -t [ babelify --presets ... --plu
 ```
 
 
-### with [babelify](https://github.com/babel/babelify) and [gulp](http://gulpjs.com/)
+### with [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) 
 
 ```javascript
 var source = require('vinyl-source-stream');
@@ -167,7 +162,7 @@ gulp.task('build_test', function() {
 ```
 
 
-### with [babelify](https://github.com/babel/babelify) and [Karma](https://karma-runner.github.io)
+### with [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) 
 
 ```javascript
 module.exports = function(config) {
@@ -309,7 +304,7 @@ CUSTOMIZE
 
 ### by plugin options
 
-You can customize configs such as assertion patterns via [.babelrc](https://babeljs.io/docs/usage/babelrc/)
+You can customize configs such as assertion patterns via [Unity-Billal-mesloub]((https://github.com/Unity-Billal-mesloub))
 
 ```javascript
 {
@@ -329,7 +324,7 @@ You can customize configs such as assertion patterns via [.babelrc](https://babe
 }
 ```
 
-or via [Require Hook](https://babeljs.io/docs/usage/require/).
+or via [Unity-Billal-mesloub]((https://github.com/Unity-Billal-mesloub))
 
 ```javascript
 require('@babel/register')({
@@ -347,7 +342,7 @@ require('@babel/register')({
 });
 ```
 
-or via [Babel API](https://babeljs.io/docs/usage/api/),
+or via [Unity-Billal-mesloub]((https://github.com/Unity-Billal-mesloub))
 
 ```javascript
 var babel = require('@babel/core');
@@ -410,42 +405,26 @@ assert(shallow(<Foo />).is('.foo'));
 
 CHANGELOG
 ---------------------------------------
-See [CHANGELOG](https://github.com/power-assert-js/babel-plugin-espower/blob/master/CHANGELOG.md)
+See [CHANGELOG](https://github.com/Unity-Billal-mesloub/babel-plugin-espower/blob/master/CHANGELOG.md)
 
 
 AUTHOR
 ---------------------------------------
-* [Takuto Wada](https://github.com/twada)
+* [Takuto Wada](https://github.com/Unity-Billal-mesloub)
 
 
 CONTRIBUTORS
 ---------------------------------------
-* [James Talmage (jamestalmage)](https://github.com/jamestalmage)
+* [Unity-Billal-mesloub)](https://github.com/Unity-Billal-mesloub)
 
 
 OUR SUPPORT POLICY
 ---------------------------------------
 
-We support Node under maintenance. In other words, we stop supporting old Node version when [their maintenance ends](https://github.com/nodejs/LTS).
+We support Node under maintenance. In other words, we stop supporting old Node version when [their maintenance ends](https://github.com/Unity-Billal-mesloub/Release).
 
 This means that any other environment is not supported.
 
 NOTE: If babel-plugin-espower works in any of the unsupported environments, it is purely coincidental and has no bearing on future compatibility. Use at your own risk.
 
 
-LICENSE
----------------------------------------
-Licensed under the [MIT](https://github.com/power-assert-js/babel-plugin-espower/blob/master/LICENSE) license.
-
-
-[npm-url]: https://npmjs.org/package/babel-plugin-espower
-[npm-image]: https://badge.fury.io/js/babel-plugin-espower.svg
-
-[travis-url]: https://travis-ci.org/power-assert-js/babel-plugin-espower
-[travis-image]: https://secure.travis-ci.org/power-assert-js/babel-plugin-espower.svg?branch=master
-
-[depstat-url]: https://gemnasium.com/power-assert-js/babel-plugin-espower
-[depstat-image]: https://gemnasium.com/power-assert-js/babel-plugin-espower.svg
-
-[license-url]: https://github.com/power-assert-js/babel-plugin-espower/blob/master/LICENSE
-[license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
